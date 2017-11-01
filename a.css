@@ -257,5 +257,26 @@ h1,h2,h3,h4,h5,h6{
     float:left;
 }
 
+.works {
+    width:945px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:100px;
+}
+
+.works .works-left{
+    float:left;
+}
+
+.works .works-top{
+    float:left;
+    margin-left:40px;
+}
+
+.works .works-bottom{
+    float:left;
+    margin-left:40px;
+    margin-top:20px;
+}
 
 
