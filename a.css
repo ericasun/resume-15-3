@@ -238,7 +238,24 @@ h1,h2,h3,h4,h5,h6{
     font-size: 18px;
 }
 
+.skills > h2,.portfolio > h2{
+    text-align: center;
+    color: #3d4451;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 600;
+}
 
+.skills li,.portfolio li{
+    list-style:none;
+    font-size: 14px;
+    line-height: 1.1;
+    padding-right: 40px;
+}
+
+.portfolio li{
+    float:left;
+}
 
 
 
