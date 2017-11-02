@@ -276,17 +276,54 @@ h1,h2,h3,h4,h5,h6{
 .skills > ul > li .process{
     border-right-style:solid;
     border-right-color:#FAE1E1;
+    border-radius: 2px;
     margin:5px 0px;
 }
 
-.portfolio li{
+.portfolio > ul{
+    margin:30px auto 0px auto;
+    padding-left:360px;
+}
+
+.portfolio > ul > li{
     float:left;
+    margin-right:40px;
+    font-size:16px;
+    cursor: pointer;
+}
+
+.portfolio > div{
+    height:5px;
+    width:235px;
+    background: white;
+    border-radius: 2px;
+    margin:10px 0px 20px 360px;
+}
+
+.portfolio .navbar-inner {
+    height: 100%;
+    background: #E6686A;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+.portfolio .navbar-state-1 .navbar-inner{
+    width:50px;
+    margin-left:0px;
+}
+
+.portfolio  .navbar-state-2 .navbar-inner{
+    width:50px;
+    margin-left:65px;
+}
+
+.portfolio .navbar-state-3 .navbar-inner{
+    width:96px;
+    margin-left:140px;
 }
 
 .works {
     width:945px;
-    margin-left:auto;
-    margin-right:auto;
+    margin:0 auto;
     padding-bottom:100px;
 }
 
